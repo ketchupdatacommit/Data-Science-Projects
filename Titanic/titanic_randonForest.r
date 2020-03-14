@@ -22,6 +22,9 @@ df_titanic_train$Age[is.na(df_titanic_train$Age)] <- predict(age_pred,
 summary(df_titanic_train$Embarked)
 
 # check which rows have a blank value in Embarked 
+
+
+
 which(df_titanic_train$Embarked == '')
 #62 830
 
